@@ -5,6 +5,11 @@
     color: #fff;
 }
 
+.dbg_col2{
+    height: 80px;
+    background-color: #fff ;
+    color: #2c3e50;
+}
 .dbg_altezza{
     height: 700px;
 }
@@ -16,4 +21,12 @@
 
 main section:nth-child(2n-1){
     background-color: #1ABC9C;
+}
+
+footer .footer_color_1{
+    background-color: #3A546D;
+}
+
+footer .footer_color_2{
+    background-color: #2c3e50;
 }
