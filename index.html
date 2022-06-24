@@ -1,118 +1,192 @@
 <!DOCTYPE html>
-    <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Bootstrap</title>
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-            <link rel="stylesheet" href="css/style.css">
-        </head>
-        <body>
-            <header class="container-fluid">
-                <div class="row">
-                    <div class="col dbg_col">
-                        lorem ipsum
-                    </div>
-                    <div class="col dbg_col">
-                        lorem ipsum
-                    </div>
-                </div>
-            </header>
-            <main>
-                <section class=" jumbotron">
-                    <div class="container">
-                        <div class="row justify-content-center dbg_h100">
-                            <div class="col-md-8 align-self-center dbg_col">
-                                content
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="portfolio">
-                    <div class="container-lg">
-                        <div class="row">
-
-                            <div class="col-sm-6 col-lg-4 p-3">
-                                <div class="dbg_col g-3"></div>
-                            </div>
-
-                            <div class="col-sm-6 col-lg-4 p-3">
-                                <div class="dbg_col g-3"></div>
-                            </div>
-
-                            <div class="col-sm-6 col-lg-4 p-3">
-                                <div class="dbg_col g-3"></div>
-                            </div>
-
-                            <div class="col-sm-6 col-lg-4 p-3">
-                                <div class="dbg_col g-3"></div>
-                            </div>
-                            
-                            <div class="col-sm-6 col-lg-4 p-3">
-                                <div class="dbg_col g-3"></div>
-                            </div>
-
-                            <div class="col-sm-6 col-lg-4 p-3">
-                                <div class="dbg_col g-3"></div>
-                            </div>
-
-                        </div>
-                    </div>
-                </section>
-                <section class="download">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-6 p-3 ">
-                                <div class="dbg_col">
-                                    download
-                                </div>    
-                            </div>
-                            <div class="col-sm-6 p-3 ">
-                                <div class="dbg_col">
-                                    download
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="form">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col p-3">
-                                <div class="dbg_col">
-                                    form da compilare
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </main>
-            <footer>
-                <div class="footer_color_1">
-                    <div class="container-sm">
-                        <div class="row p-3">
-                            <div class="col-md-4 p-1 my-3 dbg_col">
-    
-                            </div>
-                            <div class="col-md-4 p-1 my-3 dbg_col">
-    
-                            </div>
-                            <div class="col-md-4 p-1 my-3 dbg_col">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="footer_color_2">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bootstrap</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">  
+    </head>
+    <body>
+        <header class=" fixed-top p-3">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
-                        <divc class="row p-3">
-                            <div class="dbg_col2 justify-center align-center">copyright</div>
-                        </divc>
+
+                        <a class="navbar-brand text-white fw-bold" href="#">START BOOTSTRAP</a>
+
+                        <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon ms_icons_white"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white fw-bold" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fw-bold" href="#about">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fw-bold" href="#contact">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                  </nav>
+            </div>
+        </header>
+        <main class="mt-5">
+            <section class=" jumbotron pt-5">
+                <div class="container-md py-3">
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1 text-center">
+                            <img class="my-2" src="img/avatar.svg" alt="avatar">
+                            <h1 class="text-white fw-bold">START BOOTSTRAP</h1>
+                            <div>
+                                <div class="col-2 text-white d-inline-block align-middle ms_divisore"></div>
+                                <i class="bi bi-star-fill d-inline-block align-middle fs-2 text-white px-2 px-md-3 px-lg-4 my-2"></i>
+                                <div class="col-2 text-white d-inline-block align-middle ms_divisore"></div>
+                            </div>
+                            <p class="text-white fw-bold">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                        </div>
                     </div>
                 </div>
-            </footer>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
-        </body>
-    </html>
+            </section>
+            <section id="portfolio">
+                <div class="container-lg text-center my-5">
+                    <h3 class="fw-bold ms_dark_title">PORTFOLIO</h3>
+                    <div class="ms_dark_spacer">
+                        <div class="col-2 d-inline-block align-middle ms_divisore"></div>
+                        <i class="bi bi-star-fill d-inline-block align-middle fs-2 px-2 px-md-3 px-lg-4 my-2"></i>
+                        <div class="col-2 d-inline-block align-middle ms_divisore"></div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-6 col-lg-4 p-3">
+                            <div>
+                                <img class="img-fluid rounded-2" src="img/cabin.png" alt="cabin">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 p-3">
+                            <div>
+                                <img class="img-fluid rounded-2" src="img/cake.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 p-3">
+                            <div>
+                                <img class="img-fluid rounded-2" src="img/circus.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 p-3">
+                            <div>
+                                <img class="img-fluid rounded-2" src="img/game.png" alt="">
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-lg-4 p-3">
+                            <div>
+                                <img class="img-fluid rounded-2" src="img/safe.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-lg-4 p-3">
+                            <div>
+                                <img class="img-fluid rounded-2" src="img/submarine.png" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section id="about">
+                <div class="container py-5 text-center">
+                    <h3 class="text-white fw-bold">ABOUT</h3>
+                    <div>
+                        <div class="col-2 text-white d-inline-block align-middle ms_divisore"></div>
+                        <i class="bi bi-star-fill d-inline-block align-middle fs-2 text-white px-2 px-md-3 px-lg-4 my-2"></i>
+                        <div class="col-2 text-white d-inline-block align-middle ms_divisore"></div>
+                    </div>
+                    <div class="row text-start fw-bold">
+                        <div class="col-8 offset-2 col-md-4 p-3">
+                            <div>
+                                <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, id dignissimos culpa corporis nulla sed eligendi! Reiciendis nemo recusandae id dolores. Velit cum excepturi at modi perferendis ducimus minus? Iste.</p>
+                            </div>    
+                        </div>
+                        <div class="col-8 offset-2 col-md-4 offset-md-0 p-3 ">
+                            <div>
+                                <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, id dignissimos culpa corporis nulla sed eligendi! Reiciendis nemo recusandae id dolores. Velit cum excepturi at modi perferendis ducimus minus? Iste.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div class="container py-5 text-center">
+                    <h3 class="fw-bold ms_dark_title">CONTACT ME</h3>
+                    <div class="ms_dark_spacer">
+                        <div class="col-2 d-inline-block align-middle ms_divisore"></div>
+                        <i class="bi bi-star-fill d-inline-block align-middle fs-2 px-2 px-md-3 px-lg-4 my-2"></i>
+                        <div class="col-2 d-inline-block align-middle ms_divisore"></div>
+                    </div>
+                    <div class="row text-start">
+                        <div class="col-8 offset-2 p-3">
+                            <form>
+                                <div class="mb-2">
+                                    <label for="formNameInput" class="fs-4">Name</label>
+                                    <input type="text" class="w-100 border-0 border-bottom" id="formNameInput">
+                                </div>
+                                <div class="mb-2">
+                                  <label for="InputEmail" class="fs-4">Email Address</label>
+                                  <input type="email" class="w-100 border-0 border-bottom" id="InputEmail">
+                                </div>
+                                <div class="mb-2">
+                                    <label for="InputTel" class="fs-4">Phone Number</label>
+                                    <input type="tel" class="w-100 border-0 border-bottom" id="InputTel">
+                                </div>
+                                <div class="mb-2">
+                                    <label for="MessageTextarea" class="fs-4">Message</label>
+                                    <textarea rows="5" class="w-100 border-0 border-bottom" id="MessageTextarea"></textarea>
+                                </div>
+                                <button type="submit" class="btn">Send</button>
+                              </form>
+                                
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer_color_1">
+                <div class="container-sm">
+                    <div class="row p-3">
+                        <div class="col-md-4 p-1 my-3 dbg_col">
+
+                        </div>
+                        <div class="col-md-4 p-1 my-3 dbg_col">
+
+                        </div>
+                        <div class="col-md-4 p-1 my-3 dbg_col">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_color_2">
+                <div class="container-fluid">
+                    <divc class="row p-3">
+                        <div class="dbg_col2 justify-center align-center">copyright</div>
+                    </divc>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
+    </body>
+</html>
 
