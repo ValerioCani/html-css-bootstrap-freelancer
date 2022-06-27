@@ -30,6 +30,23 @@ main section:nth-child(2n-1){
     max-width: 228px;
 }
 
+.ms_dark_overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    visibility: hidden;
+}
+
+#portfolio .portfolio_image:hover > .ms_dark_overlay{
+    visibility: visible;
+}
+
 .ms_divisore{
     border: solid 2px;
     border-radius: 4px;
